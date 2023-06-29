@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(218, 247, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    color: rgb(8, 77, 8);
+}
+
+#vasco{
+    background-color:rgb(8, 77, 8);
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: rgb(19, 150, 19);
+}
