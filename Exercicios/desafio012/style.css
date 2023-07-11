@@ -47,7 +47,10 @@ section{
     font-size: 3vw;
     
     font-family: 'Sriracha', cursive;
+}
 
+section > p{
+    padding-bottom: 20px;
 }
 
 .normal{
@@ -57,13 +60,29 @@ section{
 
 .imagem{
     background-color: burlywood;
+    box-shadow: inset 5px 5px 13px rgba(0, 0, 0, 0.233);
 }
 
 .imagem > p{
     display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.322);
-    padding: 10px; 
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a {
