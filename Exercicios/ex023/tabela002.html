@@ -14,9 +14,22 @@
             border-collapse: collapse;
         }
 
+        caption{
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            font-size: 1.3em;
+            font-weight: bolder;
+            border: 1px solid black;
+        }
+
         td,th{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
         }
 
         thead,tfoot{
@@ -28,10 +41,11 @@
 <body>
     <h1>Uso  de tabelas grandes</h1>
     <table>
+        <caption>Populaçao por estados</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 60px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -47,10 +61,30 @@
                 <td>Rio de Janeiro</td>
                 <td>17 Milhões</td>
             </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td>9 Milhões</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>5 Milhões</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td>12 Milhões</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td>13 Milhões</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td>7 Milhões</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Abitantes</th>
+                <th scope="row">Total de Abitantes</th>
                 <td>00000</td>
             </tr>
         </tfoot>
