@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="inome">nome: </label>
+            <input type="text" name="nome" id="inome" placeholder="nome de usuário">
+        </p>
+        <p>
+            <label for="isenha">senha: </label>
+            <input type="text" name="senha" id="isenha" required minlength="5">
+        </p>
+        <p>
+            <input type="submit" value="Cadastrar-se">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
