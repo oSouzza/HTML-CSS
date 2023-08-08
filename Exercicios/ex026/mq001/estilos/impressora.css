@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Estilo para impressora */ 
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+article::after{
+    content: 'Esse artigo foi feito por Lucas Rélo Forte';
+}
