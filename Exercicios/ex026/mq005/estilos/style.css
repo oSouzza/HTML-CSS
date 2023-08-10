@@ -27,6 +27,7 @@ header h1{
     text-align: center;
     padding-top: 3px;
     cursor: pointer;
+    padding: 8px;
 }
 
 #burguer:hover{
@@ -51,7 +52,6 @@ li a{
     color: white;
     padding: 10px;
     border-top: 2px solid gray;
-    font-size: 0.8em;
 }
 
 li a:hover{
