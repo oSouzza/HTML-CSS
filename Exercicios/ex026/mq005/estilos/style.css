@@ -20,8 +20,23 @@ header h1{
     padding: 10px;
 }
 
+#burguer{
+    display: block;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
 menu{
     display: block;
+    display: none;
 }
 
 menu > ul{
@@ -36,6 +51,7 @@ li a{
     color: white;
     padding: 10px;
     border-top: 2px solid gray;
+    font-size: 0.8em;
 }
 
 li a:hover{
